@@ -1,0 +1,8 @@
+Sistema web responsivo para gestão da Atlética AAAACH.
+
+Funcionalidades:
+- Dashboard financeiro com gráficos e calendário.
+- Controle de Estoque visual.
+- Prestação de Contas com eventos, custos fixos e download de comprovantes.
+
+Tecnologia: React, Tailwind e design Glassmorphism moderno. Totalmente adaptado para mobile e desktop.
