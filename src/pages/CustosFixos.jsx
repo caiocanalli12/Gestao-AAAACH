@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom';
 import { ArrowLeft, FolderOpen, Image } from 'lucide-react';
+import canvaReceipt from '../comprovantes/canva_janeiro.png';
 
 function CustosFixos() {
     return (
@@ -24,8 +25,8 @@ function CustosFixos() {
 
                     <div className="space-y-2">
                         <a
-                            href="/src/comprovantes/canva_janeiro.png"
-                            download
+                            href={canvaReceipt}
+                            download="canva_janeiro.png"
                             className="flex items-center gap-3 p-3 rounded-xl hover:bg-gray-50 transition-colors group cursor-pointer"
                         >
                             <div className="w-10 h-10 bg-blue-100 rounded-lg flex items-center justify-center text-blue-500 group-hover:scale-105 transition-transform">
